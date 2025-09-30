@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp8
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int dogru_t = Convert.ToInt32(textBox1.Text);
+            int dogru_m= Convert.ToInt32(textBox2.Text);
+            int yanlis_t = Convert.ToInt32(textBox4.Text);
+            int yanlis_m= Convert.ToInt32(textBox5.Text);
+            double net_t = dogru_t - yanlis_t / 4;
+            double net_m = dogru_m- yanlis_m / 4;
+            textBox3.Text = net_t.ToString();
+            textBox6.Text = net_t.ToString();
+        }
+    }
+}
