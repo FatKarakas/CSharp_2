@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp101
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void mAVİToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Blue;
+        }
+
+        private void yEŞİLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Green;
+        }
+
+        private void hAKKIMIZDAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("FATIMAGÜL KARAKAŞ","UYARI",MessageBoxButtons.OKCancel,MessageBoxIcon.Warning);
+
+        }
+
+        private void hESAPMAKİNESİToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("calc.exe");
+        }
+
+        private void pAINTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("mspaint.exe");
+        }
+
+        private void çIKIŞToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
+}
