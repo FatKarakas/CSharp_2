@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp98
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+       
+        private void tURUNCUToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Orange;
+        }
+
+        private void yEŞİLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Green;
+        }
+
+        private void mAVİToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Blue;
+        }
+
+        private void hAKKIMIZDAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("fatımagül karakaş","uyarı",MessageBoxButtons.OK,MessageBoxIcon.Information);
+
+        }
+
+        private void çIKIŞToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void sESSİZBİRYERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("www.youtube.com");
+        }
+    }
+}
