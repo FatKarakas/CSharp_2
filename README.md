@@ -1,6 +1,13 @@
 # CSharp_2
 NESNE TABANLI PROGRAMLAMA-|| (C#) KAPSAMINDA YAPILAN ÖRNEK UYGULAMA VE PROJELER İÇERİR.NESNE YÖNELİMLİ PROGRAMLAMANIN TEMEL PRENSİPLERİNİ GERÇEK HAYATA UYGULAMAYI AMAÇLANMIŞTIR.BASİT DÜZEYDEN BAŞLAYIP İLERİ DÜZEYE DOĞRU GİDİLMEK HEDEFLENMİŞTİR.
 
+Projeler Hakkında:
+Proje Türü: Mini / Öğrenme Amaçlı
+Kullanım: Eğitim, WinForms pratiği
+
+Not:
+Bu proje, C# ve Windows Forms öğrenme sürecinde geliştirilmiş küçük ölçekli uygulamalardır.
+
 *****PROJELER*****
 1-UYARI PENCERİSİ(POP-UP) UYGULAMASI
 2-HESAP MAKİNESİ UYGULAMASI
